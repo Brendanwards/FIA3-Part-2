@@ -2,4 +2,4 @@ from datastore import Datastore
 
 db = Datastore("TableTopGamers.db")
 
-print(db.get_members())
+print(db.update_loan(0))
